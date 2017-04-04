@@ -7,7 +7,7 @@ Lets start by getting that website up and running.
 ## Step 1
 
 ### Website
-In the [website directory](website/) there are four files:
+In  the [website directory](website/) there are four files:
 
 1. **[index.html](website/index.html):** This is the index file that our S3 bucket will be displaying.
 2. **[app.js](website/app.js):** The heart of our website. We will be making some changes to this in a bit, but for now we can leave it alone.
