@@ -22,4 +22,5 @@ S3_BUCKET=''
      S3_BUCKET="$1"
  fi
 
-aws s3 cp ./website/ "s3://$S3_BUCKET" --recursive --exclude "*.yaml"
+aws s3 cp ./website/ "s3://$S3_BUCKET" --recursive 
+#aws s3 cp ./website/ "s3://$S3_BUCKET" --recursive --exclude "*.yaml"
